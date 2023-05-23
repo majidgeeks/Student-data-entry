@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+        <div class="inner-div">
+      <label for="">Name :</label>
+      <input id="name" class="inp-3" type="text" required /> <br /><br />
+
+      <label for="">Father Name :</label>
+      <input id="f-name" class="inp-2" type="text" required /><br /><br />
+
+      <label for="">Roll Number :</label>
+      <input id="roll-num" class="inp-3" type="text" required /><br /><br />
+
+      <label for="week-days">Week Days</label>
+      <input
+      class="radio-inp"
+        type="radio"
+        name="days"
+        value="week-days"
+        id="week-days"
+        required
+      />
+      <label for="week-days">Week End</label>
+      <input
+      class="radio-inp"
+        type="radio"
+        name="days"
+        value="weekend-days"
+        id="weekend-days"
+        required
+      />
+      <br /><br />
+      <label for="">Subject</label>
+      <select>
+        <option disabled hidden selected>Select</option>
+        <option value="WEB & MOBILE APP">WEB & MOBILE APP</option>
+        <option value="BLOCKCHAIN">BLOCKCHAIN</option>
+        <option value="AI">AI</option>
+      </select>
+      <br /><br />
+
+      <button onclick="submit()">Register</button>
+    </div>
+    </div>
+    <h1></h1>
+
+    <h2></h2>
+
+    <!-- this div for display data by the help baktriks -->
+    <div class="div-container"></div>
+
+    <!-- this div for display data by the help of dom  -->
+    <div id="the-dom"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

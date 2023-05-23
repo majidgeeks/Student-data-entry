@@ -1,0 +1,84 @@
+body{
+
+
+}
+
+.main{
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.inner-div{
+    
+    /* display: inline-block; */
+    text-align: end;
+    border: 1px solid black;
+    padding: 15px;
+    background-color:#3a9edb;
+}
+
+input{
+
+    /* display: inline-block; */
+    padding-right: 50px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border-radius: 8px;
+    
+}
+
+label{
+
+    font-size: 29px;
+    font-weight: 100;
+}
+
+select{
+
+    width: 65%;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+button{
+
+    width: 24%;
+    padding: 11px;
+    border-radius: 20px;
+    margin-right: 90px;
+    background-color: silver;
+    box-shadow: 0px 1px 17px 3px white;
+}
+
+.radio-inp{
+
+    width: 17px;
+    height: 17px
+}
+
+/* javascript tag styling */ 
+
+/*delete button*/
+#delete{
+
+    width: 100px;
+    padding: 8px;
+    background-color: rgb(210, 183, 149);
+    margin-left: 75px;
+}
+
+/* data in backtriks */
+#data{
+ 
+    background-color: bisque;
+    width: 25%;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 15px;
+    float: left;
+    margin: 10px ;
+    
+
+}
